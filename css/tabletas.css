@@ -1,0 +1,12 @@
+	/* */
+	#testimonios{
+	font-size:2em;
+	}
+		
+	
+	.testimonio{
+	/*Esrto va a centrar la imagen y vedeo del gato*/
+		text-align:center;
+		width: 100%;
+	}
+	 

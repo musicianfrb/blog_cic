@@ -157,3 +157,46 @@ td{
 	margin-bottom:10px;
 }
 
+/*Esto e un meia query and es la condicion para poder definir los estilos*/
+/*de 0 a 971px aplica los siguientes estilos */
+@media screen and (max-width:971px){
+	 #sociales, #suscribir{
+		width:48%;
+		
+	}
+	
+	
+@media screen and (max-width:580px){
+	 #sociales, #suscribir{
+	 /*Puede centrar textos en linea, elementos de linea*/
+	 	text-align:center;
+		/*El width se cambia su porcentaje de width */
+		width:100%;
+		
+	}
+
+}
+
+@media screen and (max-width:822px){
+	/* */
+	#testimonios{
+	font-size:2em;
+	}
+		
+	
+	.testimonio{
+	/*Esrto va a centrar la imagen y vedeo del gato*/
+		text-align:center;
+		width: 100%;
+	 
+}
+
+
+@media screen and (max-width:872px){
+	/* */
+	.servicio{
+	/*Esrto va a centrar la imagen y vedeo del gato*/
+		text-align:center;
+		width: 100%;
+	 
+}
