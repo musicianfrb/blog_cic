@@ -1,0 +1,44 @@
+{%extends "layout.html"%}
+
+{% block titulo %}
+
+Contacto
+
+{% endblock%}
+
+
+{% block contenido %}
+
+<h2>Contactanos!!</h2>
+<form action="/contacto" method="post">
+	<table>
+		<tr>
+			<td><label for="nombre">Nombre</label></td>
+			<td><input id="nombre" type="text" name="nombre" placeholder="Nombre" required /></td>
+		</tr>
+		<tr>
+			<td><label for="email">Email</label></td>
+			<td><input id="email" type="email" name="email" required/></td>
+		</tr>
+		<tr>
+			<td><label for="url">Website</label></td>
+			<td><input id="url" type="text" name="url"/></td>
+		</tr>
+		<tr>
+			<td><label for="edad">Edad</label></td>
+			<td><input id="edad" type="number" name="edad" min="18" max="190"/></td>
+		</tr>
+		<tr>
+			<td><label for="edad">Edad</label></td>
+			<td><input id="edad" type="range" name="edad" min="18" max="190"/></td>
+		</tr>
+		<tr>
+			<td><label for="comment">Comentario</label></td>
+			<td><textarea name="comment" required></textarea></td>
+		</tr>
+		<tr>
+			<td align="right"><input type="submit" value="Enviar"/></td>
+		</tr>
+	</table>
+</form>
+{% endblock %}

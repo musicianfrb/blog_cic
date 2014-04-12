@@ -1,0 +1,13 @@
+ <!doctype html>
+ <html>
+	<head lang="es">
+		<meta charset="utf-8"/>
+		<title>JavaScript intro</title>
+		<script>
+
+document.write("hola");
+        </script>		
+	</head>	
+	<body>		
+	</body>
+  </html>

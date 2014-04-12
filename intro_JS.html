@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head lang="es">
+		<meta charset="utf-8"/>
+		<title>JavaScript intro</title>
+		<script>
+			/*	var saludo = "Hola a todos";
+			 var currentYear = 2014;
+
+			 document.write(currentYear);
+			 document.write(saludo);
+
+			 document.write('<hi> hola </hi>');
+			 document.write(5 * 3);
+
+			 var nombre = prompt("Escribe tu nombre");
+			 document.write(nombre);
+			 */
+
+			/* Forma 1 de declarar funciones*/
+			function suma(a, b) {
+				var res = a + b;
+
+				return res;
+			}
+
+			/*Forma 2 de den clarar funciones */
+			var multi = function(a,b) {
+				var respuesta = a * b;
+				
+				return respuesta;
+			};
+
+			/*var calculo = multi(1, 3.6);
+			document.write(calculo);*/
+			
+			/*Forma 3 de declarar funciones */
+			
+			function operacion(mifuncion,a,b){
+				return mifuncion(a,b);
+				
+				
+			}
+			
+			var calculo = operacion(suma,3,1);
+			document.write(calculo);
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
